@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/s_home"
+    android:layout_height="match_parent"
+    tools:context=".foodapphome">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home"
+        android:layout_centerHorizontal="true"
+        android:text="Simon Delicacies"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <!-- First Food Item -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/first_item"
+        android:layout_below="@id/home"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="118dp"
+            android:layout_height="104dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/berbarcue" />
+
+        <LinearLayout
+            android:layout_width="278dp"
+            android:layout_height="106dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingStart="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delicious Food Item 1"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price: $10.99"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Order"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </LinearLayout>
+
+<!--    food 2-->
+    <!-- First Food Item -->
+    <LinearLayout
+        android:id="@+id/second_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/first_item"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="118dp"
+            android:layout_height="104dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/humbergar" />
+
+        <LinearLayout
+            android:layout_width="278dp"
+            android:layout_height="106dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingStart="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delicious Food Item 1"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price: $10.99"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Order"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- third Food Item -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/third_item"
+        android:layout_below="@id/second_item"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="118dp"
+            android:layout_height="104dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/greens" />
+
+        <LinearLayout
+            android:layout_width="278dp"
+            android:layout_height="106dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingStart="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delicious Food Item 1"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price: $10.99"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Order"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/fourth_item"
+        android:layout_below="@id/third_item"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="118dp"
+            android:layout_height="104dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/fries" />
+
+        <LinearLayout
+            android:layout_width="278dp"
+            android:layout_height="106dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingStart="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delicious Food Item 1"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price: $10.99"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Order"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/fifth_item"
+        android:layout_below="@id/fourth_item"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="118dp"
+            android:layout_height="104dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/indo" />
+
+        <LinearLayout
+            android:layout_width="278dp"
+            android:layout_height="106dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingStart="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delicious Food Item 1"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price: $10.99"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Order"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <!--  more food items -->
+
+</RelativeLayout>
